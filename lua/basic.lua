@@ -1,7 +1,7 @@
 -- 本选项的效果是使得 Vim 或者更兼容 Vi -- cp
 vim.o.compatible = false
 -- 根据上一行决定新行的缩进 -- ai
-vim.o.autoindent = true
+vim.o.autoindent = false
 -- 有 Vim 之外的改动时自动重读文件 -- ar
 vim.o.autoread = true
 -- 覆盖文件时保留备份文件 -- bk
@@ -46,8 +46,6 @@ vim.o.sidescrolloff = 8
 vim.o.signcolumn = 'yes'
 -- 模式中有大写字母时不忽略大小写 -- scs
 vim.o.smartcase = true
--- C 程序智能自动缩进 -- si
-vim.o.smartindent = true
 -- 编辑时 <Tab> 使用的空格数 -- sts
 vim.o.softtabstop = 4
 -- 新窗口在当前窗口之下 -- sb
