@@ -16,8 +16,6 @@ vim.o.encoding = 'UTF-8'
 vim.o.expandtab = true
 -- 当折叠级别高于此值时关闭折叠 -- fdl
 vim.o.foldlevel = 99
--- GUI: 光标形状和闪烁的设置 -- gcr
-vim.o.guicursor = 'a:ver10-Cursor'
 -- 允许隐藏被修改过的缓冲区 -- hid
 vim.o.hidden = true
 -- 搜索模式时忽略大小写 -- ic
