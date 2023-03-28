@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
   -- treesitter
   use({
     'nvim-treesitter/nvim-treesitter',
-    requires = 'p00f/nvim-ts-rainbow',
+    requires = 'HiPhish/nvim-ts-rainbow2',
     run = function()
       require('nvim-treesitter.install').update({
         with_sync = true,

@@ -1,6 +1,6 @@
 # Introduction
 
-**[Neovim](https://github.com/neovim/neovim/releases/latest) 0.7.0 or later**
+**[Neovim](https://github.com/neovim/neovim/releases/latest) release or nightly**
 
 - Plugin manager with [packer.nvim](https://github.com/wbthomason/packer.nvim)
 - Load extensions with [coc.nvim](https://github.com/neoclide/coc.nvim)
